@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Poppins', sans-serif;
+}
+.header .right{
+    text-align: right;
+}
+.p-5{
+    padding:5rem 3rem!important;
+}
+#crmWebToEntityForm{
+    background-color: rgba(82, 196, 203, 0.5)!important;
+    -webkit-background-color: rgba(82, 196, 203, 0.5)!important;
+    -moz-background-color: rgba(82, 196, 203, 0.5)!important;
+    -ms-background-color: rgba(82, 196, 203, 0.5)!important;
+    padding: 10px 15px;
+    font-family: 'Poppins', sans-serif!important;
+}
+#crmWebToEntityForm,
+#crmWebToEntityForm table{
+    width: 100%!important;
+    margin: inherit!important;
+}
+#crmWebToEntityForm br{
+    display: none;
+}
+#crmWebToEntityForm table{
+    background:none!important;
+    margin: 10px;
+}
+#crmWebToEntityForm table tr td strong{
+    font-family: 'Poppins', sans-serif!important;
+    text-align: center;
+    display: block;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: x-large;
+}
+#crmWebToEntityForm table tr td:nth-child(1){
+    font-family: 'Poppins', sans-serif!important;
+    width: 25%!important;
+}
+#crmWebToEntityForm table tr td:nth-child(2){
+    width: 70%!important;
+    font-family: 'Poppins', sans-serif!important;
+}
+#crmWebToEntityForm table tr td:nth-child(3){
+    display:none;
+}
+.banner{
+    background: #fff url(../images/estructura/bg_header.jpg) no-repeat 0 bottom;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 0!important;
+    margin-bottom:0;
+}
+.banner h1 {
+    font-size: 2.5rem;
+    /*color: #52c4cb;*/
+    color: #fff;
+    font-weight: 600;
+    padding-right: 6rem;
+}
+
+.banner .col-md-5{
+    position: relative;
+}
+.modulos img{
+    margin: 20px 0;
+}
+.modulos h2 span{
+    color: #52c4cb;
+}
+.mensaje{
+    background: #f5f7fb;
+}
+.mensaje a{
+    font-style: italic;
+}
+.mensaje .container{
+    position: relative;
+}
+.mensaje i{
+    font-size: 3rem;
+    position: absolute;
+}
+.fa-quote-left{
+    left: -50px;
+}
+.fa-quote-right{
+    right: 0;
+    bottom: 0;
+}
+.mensaje h3{
+    font-weight: 300;
+    line-height: 1.4;
+}
+.clientes .col-md-3{
+    width: 20%;
+    flex: 20%;
+}
+footer{
+    color: #fff;
+}
+footer .right{
+    text-align: right;
+}
+@media (max-width: 992px){
+    .banner h1{
+        font-size: 2rem;
+        padding-right:0;
+    }
+    #crmWebToEntityForm{
+        margin-top: 1.5rem!important;
+    }
+}
+@media (max-width: 767px){
+    .mensaje,
+    footer,
+    footer .right,
+    .header,
+    .header .right{
+        text-align: center;
+    }
+    .header .right{
+        margin-top: 10px;
+    }
+    .fa-quote-left{
+        left: 0;
+    }
+    .mensaje img{
+        margin-top: 20px;
+    }
+    .clientes .col-md-3{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (max-width: 576px){
+    .fa-quote-left{
+        left: -35px;
+    }
+}

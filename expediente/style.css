@@ -1,0 +1,169 @@
+.attach_file{
+    display: block;
+    border:1px solid #ccc;
+    padding:20px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom:15px;
+}
+    /* Upload button */
+}
+.upload {
+  display: none;
+}
+.uploader {
+  position: relative;
+  height: 30px;
+  display: flex;
+  background: #EEEEEE !important;
+  margin: auto;
+  float: none!important;
+  width: 100%!important;
+}
+.uploader .input-value{
+  min-width: 300px;
+  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.uploader label {
+    cursor: pointer;
+    margin: 0;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background: #00A985;
+    padding-left: 12px;
+    padding-top: 2px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.dropzone{
+    border: 2px dashed #ccc!important;
+    border-radius: 5px;
+    background: #f5f5f5!important;
+    color: #bbb;
+    font-size: x-large;
+}
+.plan_table table thead tr th{
+  background:#00A985 !important;
+  color: #fff;
+  text-shadow:none;
+}
+.plan_table .bg_gray td{
+  background: #f9f9f9;
+}
+.plan_table span.label{
+  font-size: 14px!important;
+}
+.modal_title{
+  color: #2a8471;
+}
+
+.bg_green,
+.bg_yellow,
+.bg_blue,
+.bg_red{
+    background: #5bb74e!important;
+    color: #ffffff!important;
+    text-align: center;
+    padding: 5px;
+}
+.bg_yellow{
+    background: #febe32!important;
+}
+.bg_blue{
+    background: #0070cc!important;
+}
+.bg_red{
+  background: #dc3545!important;
+}
+.succession_plan .search{
+  display: block;
+  margin-bottom: 30px;
+  position: relative;
+}
+.succession_plan .search i.fa-search{
+    position: absolute;
+    left: 8px;
+    top: 43px;
+    z-index: 1;
+    color: #bbb;
+}
+.succession_plan .search .title_label{
+  font-size:18px;
+}
+.succession_plan .search input{
+  position: relative;
+  width: 70%;
+  padding-left: 30px!important;
+}
+
+.succession_plan .people .ui-widget-content,
+.succession_plan .options .ui-widget-header{
+  border:none;
+  position: relative;
+}
+
+.succession_plan .people .ui-widget-header{
+  padding: 5px;
+  position: relative;
+  border: 1px solid #eee;
+  font-weight: 400;
+}
+.succession_plan .people label{
+  height: 28px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.succession_plan .options .people .ui-widget-header{
+  border:1px solid #eee;
+  text-align: left;
+  width: 88%;
+}
+.succession_plan .options .people .ui-icon-circle-close{
+  position: absolute;
+    right: 6px;
+    top: 9px;
+}
+.succession_plan .options .content_box{
+  z-index: 0;
+  height: 120px;
+  padding: 5px;
+}
+.career_plan table tr td{
+  border-bottom: 1px solid #eee;
+  padding: 10px 5px;
+}
+.career_plan .progress,
+.talent_sheet .progress{
+  margin-bottom: 0;
+}
+.career_plan .nav-tabs>li>a{
+  background: #eee;
+}
+.career_plan .nav-tabs>li .active{
+  background: #ffffff;
+}
+.career_plan .position .list-group-item{
+  overflow: hidden;
+}
+.career_plan .position .list-group-item input[type="checkbox"]{
+  float: left;
+}
+.career_plan .position .list-group-item span{
+  float: right;
+}
+.career_plan .position .active{
+  background: #dff0d8;
+  border-color: #d6e9c6;
+}
+.talent_sheet .form-group{
+  margin: 0;
+}
+.talent_sheet table tr td{
+  padding: 5px 0;
+}

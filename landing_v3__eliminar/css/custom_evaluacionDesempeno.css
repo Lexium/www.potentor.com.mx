@@ -1,0 +1,86 @@
+
+.banner{
+    background: #44536a url(../images/evaluacion_desempeno/bg_header.jpg) no-repeat 0 top;
+    background-size: cover;
+}
+
+
+.modulos h2 span{
+    color: #52c4cb;
+}
+.modulos .left{
+    font-size: 1.3rem;
+    color: #54585A;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif!important;
+}
+.mensaje{
+    background: #f5f7fb;
+}
+.mensaje a{
+    font-style: italic;
+}
+.mensaje .container{
+    position: relative;
+}
+.mensaje i{
+    font-size: 3rem;
+    position: absolute;
+}
+.fa-quote-left{
+    left: -50px;
+}
+.fa-quote-right{
+    right: 0;
+    bottom: 0;
+}
+.mensaje h3{
+    font-weight: 500;
+    line-height: 1.4;
+}
+.clientes .col-md-3{
+    width: 20%;
+    flex: 20%;
+}
+
+@media (max-width: 992px){
+    .banner h1{
+        font-size: 2rem;
+        padding-right:0;
+    }
+    #crmWebToEntityForm{
+        margin-top: 1.5rem!important;
+    }
+    .modulos .left img{
+        position: inherit;
+        margin-bottom: 2rem;
+    }
+}
+@media (max-width: 767px){
+    .mensaje,
+    footer,
+    footer .right,
+    .header,
+    .header .right{
+        text-align: center;
+    }
+    .header .right{
+        margin-top: 10px;
+    }
+    .fa-quote-left{
+        left: 0;
+    }
+    .mensaje img{
+        margin-top: 20px;
+    }
+    .clientes .col-md-3{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (max-width: 576px){
+    .fa-quote-left{
+        left: -35px;
+    }
+}

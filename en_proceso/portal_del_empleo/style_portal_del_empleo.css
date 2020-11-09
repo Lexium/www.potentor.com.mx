@@ -1,0 +1,346 @@
+body{
+  background: #eeeeee!important;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #5a7391;
+}
+label{
+    font-weight: 400;
+}
+.wrapper {
+    display:inherit;
+    min-width: inherit;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #52c4cb;
+    border: none;
+    float: right;
+    text-transform: none!important;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 3px!important;
+    -webkit-border-radius: 3px!important;
+    -moz-border-radius: 3px!important;
+}
+.btn-primary:hover{
+    background-color: #2c9da3;
+}
+.principal_title{
+    margin: 5px 0 20px 0;
+    font-weight: 300;
+}
+.wrapper:before {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #52c4cb;
+    content: " ";
+}
+.modal label{
+    display: block;
+}
+
+.sidebar {
+    min-width: 230px;
+    max-width: 230px;
+    -webkit-transition: margin-left 0.3s ease-in-out, left 0.3s ease-in-out, margin-right 0.3s ease-in-out, right 0.3s ease-in-out;
+    transition: margin-left 0.3s ease-in-out, left 0.3s ease-in-out, margin-right 0.3s ease-in-out, right 0.3s ease-in-out;
+    background: transparent;
+    border-right: 0;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.05);
+    z-index: 1;
+}
+.profile-usermenu ul{
+    display: block!important;
+}
+.profile-usermenu ul li a{
+    color: #333333;
+}
+.profile-usermenu ul li.active a,
+.profile-usermenu ul li a:hover{
+    background: #52c4cb;
+    color: #ffffff;
+    border-left-color:#52c4cb;
+}
+.profile-userpic{
+    text-align: center;
+}
+.profile-usertitle-job{
+    color: #52c4cb;
+}
+.center-container,
+.right-container,
+.profile-sidebar{
+    border:none;
+    position: relative;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    background-color: #fff;
+}
+.panel-body {
+    padding: 15px;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.center-container .panel-default{
+    position: relative;
+}
+.center-container .bg_photo_index{
+    width: 100%;
+    height: 200px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: url('images/bg_rosas.jpg');
+    content: " ";
+    z-index: 0;
+}
+.center-container .bg_photo_index a{
+    border:1px solid #333;
+    background-color:rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    padding:10px;
+    display: inline-block;
+    margin:15px;
+    cursor: pointer;
+}
+.center-container .bg_photo_index a:hover{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.center-container .profile-userpic{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.center-container .profile-userpic img{
+    max-width: 180px;
+    width: 180px;
+    margin:auto;
+}
+.center-container .photo_user{
+    margin-top: 95px;
+}
+.center-container .photo_user .btn_take_pic{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 60%;
+    /* bottom: 0px; */
+    background: url(images/shadow_btn.png);
+    max-width: 180px;
+    height: 72px;
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+}
+/****
+    Inicia mi perfil
+****/
+.center-container .my_profile .contry label{
+    display: inline-block;
+}
+
+
+/****
+    Termina mi perfil
+****/
+
+/****
+    EVENTOS
+****/
+
+.center-container .events_container{
+    padding: 15px;
+    border:1px solid #ccc;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #5a7391;
+}
+
+.center-container .events_container .img_evento{
+    background: #cdf5f7;
+    height: 150px;
+    font-size: 50px;
+    color: #52c4cb;
+    display:flex;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.center-container .events_container .img_evento i{
+     margin: auto;
+}
+.center-container .events_container .title{
+    color: #52c4cb;
+    font-size: 21px;
+    text-align: left;
+    font-weight: 200;
+}
+.center-container .events_container .type{
+    margin-bottom: 2rem;
+}
+.center-container .events_container .confirmed{
+    float: right;
+    font-size: 90%;
+}
+/****
+    TERMINA EVENTOS
+****/
+/****
+    INICIA NUEVOS INGRESOS
+****/
+.center-container .events_container .profile-userpic img{
+    width: 80%
+}
+
+/****
+    TERMINA NUEVOS INGRESOS
+****/
+/****
+    INICIA DIRECTORIO
+****/
+.center-container .directory{
+
+}
+.center-container .directory .col-lg-4 .panel{
+    width: 90%;
+    margin:auto auto 20px auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.center-container .directory .bg_photo_index{
+    height: 140px;
+    background-size: cover;
+}
+.center-container .directory .profile-userpic{
+    margin: 72px 0 10px 0;
+}
+.center-container .directory .profile-userpic img{
+    width: 110px;
+    height: 105px;
+    overflow: hidden;
+}
+.center-container .directory .title{
+    font-size: 21px;
+    font-weight: 200;
+    color: #000;
+    margin-bottom: 20px;
+}
+.center-container .directory p{
+    margin-bottom: 0;
+}
+.center-container .directory p:first-child{
+    text-transform: uppercase;
+}
+/****
+    TERMINA DIRECTORIO
+****/
+/****
+    INICIA Noticias y anuncios
+****/
+
+.center-container .notice_container{
+    max-width: 90%;
+    margin: auto;
+    border-top: 1px solid #cccccc;
+    margin-top: 4rem;
+    padding-top:4rem;
+}
+.center-container .notice_container:nth-child(2){
+    border:0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.center-container .notice_container .profile-userpic img{
+    max-width: 80px;
+    width: 80px;
+}
+.center-container .notice_container .numComents{
+    text-align: right;
+}
+.center-container .notice_container .social_network{
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding:1rem 0;
+    margin:2rem 0;
+}
+.center-container .notice_container .social_network a:first-child,
+.center-container .notice_container .social_network a:nth-child(2),
+.center-container .notice_container .social_network a:nth-child(3),
+.center-container .notice_container .social_network a:nth-child(4){
+    background: #1a8dc4;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    padding: 3px 7px;
+    color: #ffffff;
+    display: inline-block;
+}
+.center-container .notice_container .social_network a:first-child{
+    background: #0d64dd;
+}
+.center-container .notice_container .social_network a:nth-child(2){
+    background:#dc3545;
+}
+.center-container .notice_container .comments{
+    margin-bottom: 1.5rem;
+}
+.center-container .notice_container .comments .profile-userpic{
+    margin-bottom: 0!important;
+}
+.center-container .notice_container .comments .profile-userpic img{
+    max-width: 60px;
+    width: 60px;
+}
+.center-container .notice_container .comments .content{
+    background: #eeeeee;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    border-radius: 30px !important;
+    padding: 1rem 2.5rem;
+    display: block;
+}
+.center-container .notice_container .comments .content h5{
+    margin: 0 0 5px 0;
+}
+/****
+    TERMINA Noticias y anuncios
+****/
+
+
+
+.right-container{
+    min-height: 688px;
+}
+
+.right-container h3{
+    margin-bottom: 30px;
+    font-size: 24px!important;
+    margin-top: 20px!important;
+    font-weight: 500;
+}
+
+.right-container a{
+    color: #52c4cb;
+}
+.right-container .title{
+    font-size: 24px;
+}

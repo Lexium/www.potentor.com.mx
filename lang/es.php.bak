@@ -1,0 +1,617 @@
+<?php
+function lang($variable)
+{
+
+    $lang['folder']                 = 'es';
+
+//	ENCABEZADO
+    $lang['TITULO_SITIO']           = 'POTENTOR';
+    $lang['Inicio']                 = 'Inicio';
+    $lang['Soluciones']             = 'Soluciones';
+    $lang['Gestión de talento']     = 'Gestión de talento';
+    $lang['Estructura y expedientes']     = 'Estructura y expedientes';
+    $lang['Cultura']                = 'Cultura';
+    $lang['Portal del empleado']    = 'Portal del empleado';
+    $lang['Clima laboral']          = 'Clima laboral';
+    $lang['Psic x Comp_1']          = 'Psicometría por competencias';
+    $lang['Psic x Comp_2']          = 'Psicometría por competencias';
+    $lang['Mapeo de talento']       = 'Mapeo de talento';
+    $lang['RECYPERM']               = 'Reclutamiento y permanencia';
+    $lang['Des Organiz']            = 'Desarrollo organizacional';
+    $lang['Eval 360']               = 'Evaluación 360°';
+    $lang['Eval desemp']            = 'Evaluación de desempeño';
+    $lang['Plan y ret tal']         = 'Planeación y retención de talento';
+    $lang['Adec puesto/persona']    = 'Adecuación puesto/persona';
+    $lang['9box']                   = '9box';
+    $lang['Plan carr y suc']        = 'Plan de carrera y sucesión';
+    $lang['Psicometría']            = 'Psicometría';
+    $lang['Clientes']               = 'Clientes';
+    $lang['Partners']               = 'Partners';
+    $lang['Contacto']               = 'Contacto';
+    $lang['Solicitar Demo']         = 'Solicitar Demo';
+    $lang['Solicita Demo']          = 'Solicita Demo';
+    $lang['Acerca de']              = 'Acerca de';
+    $lang['Nuestros clientes']      = 'Nuestros clientes';
+    $lang['Alianzas']               = 'Alianzas';
+    $lang['Red de consultores']     = 'Red de consultores';
+    $lang['Empresa']                = 'Empresa';
+    $lang['Agenda demo en vivo']    = 'Agenda demo en vivo';
+    $lang['Solicitud de propuesta'] = 'Solicitud de propuesta';
+    $lang['Política de privacidad'] = 'Política de privacidad';
+    $lang['Hola Whatsapp']          = 'Hola! Quisiera más información sobre Potentor';
+    $lang['Ingresa correo']         = 'Ingresa tu correo electrónico';
+    $lang['Ingresa teléfono']       = 'Ingresa tu número telefónico';
+    $lang['Enviar']                 = 'Enviar';
+
+//  Pie de página
+    $lang['GEN_FOO_TEXT_01']        = 'Otros clientes también vieron:';
+    $lang['GEN_FOO_TEXT_02']        = 'Estructura';
+    $lang['GEN_FOO_TEXT_03']        = 'Integra la información de tus empleados en un solo lugar.';
+    $lang['GEN_FOO_TEXT_04']        = 'Psicometría';
+    $lang['GEN_FOO_TEXT_05']        = 'Mide +60 habilidades y competencias.';
+    $lang['GEN_FOO_TEXT_06']        = 'Reclutamiento';
+    $lang['GEN_FOO_TEXT_07']        = 'Identiﬁca y contrata a los mejores rápidamente.';
+    $lang['GEN_FOO_TEXT_08']        = 'Mapeo de talento';
+    $lang['GEN_FOO_TEXT_09']        = 'Lidera la detección, desarrollo y retención del talento.';
+    $lang['GEN_FOO_TEXT_10']        = 'Evaluación del desempeño';
+    $lang['GEN_FOO_TEXT_11']        = 'Alinea los objetivos clave para la medición del desempeño en una herramienta 100% conﬁgurable.';
+    $lang['GEN_FOO_TEXT_12']        = 'Evaluación 360°';
+    $lang['GEN_FOO_TEXT_13']        = 'Evalúa competencias y comportamientos para conocer la perspectiva 360°.';
+    $lang['GEN_FOO_TEXT_14']        = 'Adecuación puesto/persona';
+    $lang['GEN_FOO_TEXT_15']        = 'Integra y pondera datos duros para descubrir la adecuación de una persona con un puesto.';
+    $lang['GEN_FOO_TEXT_16']        = '9box';
+    $lang['GEN_FOO_TEXT_17']        = 'Ubica a los colaboradores en la matriz de talento (potencial + desempeño) y toma decisiones objetivas.';
+    $lang['GEN_FOO_TEXT_18']        = 'Planes de carrera y sucesión';
+    $lang['GEN_FOO_TEXT_19']        = 'Planea y simula el plan de carrera y sucesión de cada colaborador.';
+    $lang['GEN_FOO_TEXT_20']        = 'Encuesta de clima organizacional';
+    $lang['GEN_FOO_TEXT_21']        = 'Mide el nivel de satisfacción de los colaboradores de forma rápida y sencilla.';
+
+    $lang['Solicita tu demo']       = 'Solicita tu demo y vive la experiencia Potentor';
+
+// OTROS
+    $lang['Funcionalidades']       = 'Funcionalidades';
+
+/*
+ <?=lang('')?>
+*/
+
+//  Página Inicio
+    $lang['Ver más']        = 'Ver más';
+    $lang['ini_text01']     = 'Una plataforma de RH para';
+    $lang['ini_text02']     = 'Potentor te permite desatar el potencial de tus colaboradores para que puedas enfocarte en lo importante, nosotros nos encargamos del resto.';
+    $lang['ini_text03']     = 'POTENTOR';
+    $lang['ini_text04']     = '<h3>Nuestra suite es 100% modular y personalizable.</h3>
+            <p>Cuenta con 11 módulos especializados de funcionalidades agrupados en 5 secciones.</p>
+            <ul class="row">
+                <li class="col-md-6">Estructura y expedientes</li>
+                <li class="col-md-6">Evaluación 360°</li>
+                <li class="col-md-6">Portal del empleado</li>
+                <li class="col-md-6">Evaluación del desempeño</li>
+                <li class="col-md-6">Clima laboral</li>
+                <li class="col-md-6">Adecuación puesto/persona</li>
+                <li class="col-md-6">Psicometría por competencias</li>
+                <li class="col-md-6">9box</li>
+                <li class="col-md-6">Mapeo de talento</li>
+                <li class="col-md-6">Planes de carrera y sucesión</li>
+                <li class="col-md-6">Atracción de talento</li>
+            </ul>';
+    $lang['ini_text05']     = 'Gestión de talento';
+    $lang['ini_text06']     = 'Integra y administra la estructura, expedientes y fichas de talento en un solo lugar.';
+    $lang['ini_text07']     = 'Cultura';
+    $lang['ini_text08']     = 'Incrementa el engagement de los colaboradores con increíbles herramientas de cultura laboral.';
+    $lang['ini_text09']     = 'Psicometría por competencias';
+    $lang['ini_text10']     = 'Mide +60 habilidades y competencias para ubicar a la persona correcta en el puesto adecuado.';
+    $lang['ini_text11']     = 'Desarrollo organizacional';
+    $lang['ini_text12']     = 'Olvídate de información subjetiva, obtén métricas y datos duros de talento.';
+    $lang['ini_text13']     = 'Planeación y retención de talento';
+    $lang['ini_text14']     = 'Dale la bienvenida a la estrategia de RH con las mejores herramientas para la toma de decisiones.';
+    $lang['ini_text15']     = '<h2>¡No evalúes lo de siempre!</h2>
+            <h4 class="mb-3">Te presentamos una psicometría <span class="aqua_color">diferente</span> para obtener <span class="aqua_color">resultados diferentes</span>.</h4>
+            <h4 class="mb-5">Deja atrás la psicometría tradicional y descubre el verdadero potencial con <span class="aqua_color">nuestro modelo predictivo</span>.</h4>';
+    $lang['ini_text16']     = 'Conoce nuestra psicometría';
+    $lang['ini_text17']     = 'Potentor es exactamente lo que necesitamos es muy flexible y la implementación es rápida y sencilla. Se ajustaron a nuestras necesidades y es accesible económicamente.';
+    $lang['ini_text18']     = '<span>Ilse Lobo</span>   <b>Alis Foods</b>';
+    $lang['ini_text19']     = 'Con Potentor ubicamos a la persona correcta en el puesto adecuado. Es una plataforma que predice comportamientos y cuenta con datos duros para tomar decisiones objetivas.';
+    $lang['ini_text20']     = '<span>Salvador Luna</span>   <b>Mary Kay</b>';
+    $lang['ini_text21']     = 'Potentor es una plataforma sencilla y amigable que nos ha permitido afinar procesos tanto de retroalimentación, de evaluaciones funcionales y de mapeo de talento.';
+    $lang['ini_text22']     = '<span>Mariana Morales</span>     <b>Axtel - Alestra</b>';
+
+    $lang['ini_text23']     = 'En Potentor pudimos encontrar gente y herramienta flexible para moldear y adaptar nuestro modelo de planificación de talento y así mapear a la gente y diseñar sus rutas de carrera.';
+    $lang['ini_text24']     = '<span>Carlos Alberto Herrera</span>      <b>Cemix</b>';
+    $lang['ini_text25']     = 'Potentor cuenta con un modelo predictivo<br/>producto de 20 años de investigación y estadística.';
+    $lang['ini_text26']     = '<h4 class="blue_color">Lista para usar</h4>
+                        <p class="mt-2">Plataforma SAAS, en la nube y lista para implementarse.</p>';
+    $lang['ini_text27']     = '<h4 class="blue_color">Las mejores prácticas</h4>
+                        <p class="mt-2">Innovación mediante la integración constante de mejores prácticas.</p>';
+    $lang['ini_text28']     = '<h4 class="blue_color">100% configurable</h4>
+                        <p class="mt-2">Somos la plataforma más ﬂexible del mercado.</p>';
+    $lang['ini_text29']     = '<h4 class="blue_color">Lista para usar</h4>
+                            <p class="mt-2">Plataforma SAAS, en la nube y lista para implementarse.</p>';
+    $lang['ini_text30']     = '<h4 class="blue_color">Las mejores prácticas</h4>
+                            <p class="mt-2">Innovación mediante la integración constante de mejores prácticas.</p>';
+    $lang['ini_text31']     = '<h4 class="blue_color">100% configurable</h4>
+                            <p class="mt-2">Somos la plataforma más ﬂexible del mercado.</p>';
+    $lang['ini_text32']     = '<h4 class="blue_color">Implementación rápida</h4>
+                        <p class="mt-2">Implementación rápida, sencilla y de bajo costo.</p>';
+    $lang['ini_text33']     = '<h4 class="blue_color">User-friendly</h4>
+                        <p class="mt-2">Interfaz intuitiva, user friendly y multibrowser.</p>';
+    $lang['ini_text34']     = '<h4 class="blue_color">Conectividad</h4>
+                        <p class="mt-2">Integración y conectividad con cualquier plataforma.</p>';
+
+    $lang['ini_text35']     = '"Estructura y expedientes", "Portal del empleado", "Clima laboral", "Psicometría por competencias", "Mapeo de talento", "Reclutamiento y permanencia", "Evaluación 360°", "Evaluación del desempeño", "Adecuación puesto/persona", "9box", "Planes de carrera y sucesión"';
+
+    $lang['ini_text36']     = 'Elige tu paquete personalizado y compra en línea';
+
+    $lang['ini_text37']     = 'Ya conoces';
+    $lang['ini_text38']     = 'Te presentamos la mejor manera de obtener tu propia plataforma personalizada.';
+    $lang['ini_text39']     = 'Selecciona el paquete de psicometría que más se acomode a tus necesidades y paga en línea con un solo clic!';
+    $lang['ini_text40']     = 'Ir a Potentor Lite';
+    $lang['ini_text41']     = '¿Sabías que contamos con una evaluación para medir el Perfil Home Office?';
+    $lang['ini_text42']     = 'Aplica un test de 20 min en línea y conoce el Perfil Home Offiice de tu equipo. Obtén recomendaciones personalizadas para el trabajo remoto y una evaluación de desempeño del jefe directo.';
+
+
+    // Página Gestión de talento
+    $lang['gdt_text01']     = 'Gestión de talento';
+    $lang['gdt_text02']     = 'Integra y administra la estructura, expedientes y fichas de talento en un solo lugar.';
+    $lang['gdt_text03']     = 'Estructura y expedientes';
+    $lang['gdt_text04']     = 'Gestiona e integra tu organigrama, expedientes y fichas talento en un solo lugar.';
+
+    // Página Gestión de talento Estructura y expedientes
+    $lang['gdt2_text01']     = 'Gestión de talento';
+    $lang['gdt2_text02']     = 'Estructura y expedientes';
+    $lang['gdt2_text03']     = 'Gestiona e integra tu organigrama, expedientes y fichas de talento en un solo lugar.';
+    $lang['gdt2_text04']     =  $lang['Funcionalidades'];
+    $lang['gdt2_text05']     = '<li>Organigramas</li>
+                                <li>Expedientes</li>
+                                <li>Fichas de talento</li>
+                                <li>Reportes</li>';
+
+
+    // Página Cultura
+    $lang['cul_text01']     = 'Incrementa el engagement de los colaboradores con increíbles herramientas de cultura laboral.';
+    $lang['cul_text02']     = 'Portal del empleado';
+    $lang['cul_text03']     = 'Crea una experiencia inolvidable para tus colaboradores a través de un entretenido portal.';
+    $lang['cul_text04']     = 'Clima laboral';
+    $lang['cul_text05']     = 'Gestiona e integra tu organigrama, expedientes y fichas talento en un solo lugar.';
+
+    // Página Cultura - Portal del Empleado
+    $lang['por_text01']     = 'Portal del empleado';
+    $lang['por_text02']     = 'Crea una experiencia inolvidable para tus colaboradores a través de un amigable portal.';
+    $lang['por_text03']     =  $lang['Funcionalidades'];
+    $lang['por_text04']     = ' <li>Perfil del empleado</li>
+                                <li>Noticias y anuncios</li>
+                                <li>Eventos</li>
+                                <li>Cumpleaños</li>
+                                <li>Directorio</li>
+                                <li>Nuevos ingresos</li>
+                                <li>Organigrama</li>
+                                <li>Descripciones de puesto</li>
+                                <li>Documentos</li>';
+
+    // Página Cultura - Portal del Empleado
+    $lang['cli_text01']     = 'Mide el nivel de satisfacción de los colaboradores de forma rápida y sencilla.';
+    $lang['cli_text02']     =  $lang['Funcionalidades'];
+    $lang['cli_text03']     =   '<li>Generación de demográﬁcos</li>
+                                <li>Diagnósticos y reportes interactivos y de fácil interpretación</li>
+                                <li>Aplicación desde cualquier dispositivo móvil</li>
+                                <li>Medición del “pulso” de la empresa con métricas valiosas</li>
+';
+
+    // Página Psicometría
+    $lang['psi_text01']     = 'Mide +60 habilidades y competencias para ubicar a la persona correcta en el puesto adecuado.';
+    $lang['psi_text02']     = 'Psicometría por competencias';
+    $lang['psi_text03']     = 'Identifica +60 habilidades y competencias para ubicar a la persona correcta en el puesto adecuado. ';
+    $lang['psi_text04']     = 'Mapeo de talento';
+    $lang['psi_text05']     = 'Lidera la detección, crecimiento y retención de talento.';
+    $lang['psi_text06']     = 'Reclutamiento y permanencia';
+    $lang['psi_text07']     = 'Identifica y contrata a los mejores rápidamente.';
+
+
+    // Página Psicometría por Competencias
+    $lang['ppc_text01']     = 'Psicometría por competencias';
+    $lang['ppc_text02']     = 'Identifica +60 habilidades y competencias para ubicar a la persona correcta en el puesto adecuado.';
+    $lang['ppc_text03']     = 'Psicometría única en el mercado.';
+    $lang['ppc_text04']     = 'Conoce nuestras pruebas psicométricas y una plataforma con un modelo predictivo para tomar las mejores decisiones.';
+    $lang['ppc_text05']     = 'Habilidades intelectuales';
+    $lang['ppc_text06']     = 'Habilidades emocionales';
+    $lang['ppc_text07']     = 'Pensamiento Crítico y Analítico';
+    $lang['ppc_text08']     = 'Factores de liderazgo';
+    $lang['ppc_text09']     = 'Valores de integridad';
+    $lang['ppc_text10']     = 'Bienestar socioafectivo';
+
+    $lang['ppc_text11']     = '
+        <b>Valores de Integridad</b>
+        es una evaluación estandarizada y normalizada sobre la capacidad que tiene una persona para
+        mantener sus propias ideas, opiniones y acciones en base a la
+        <b>rectitud, honestidad, justicia y veracidad</b>.';
+
+    $lang['ppc_text12']     = '
+        Ha sido diseñada para que por medio de un protocolo que contiene <b>96 afirmaciones</b>
+        puedan ser identificadas las actitudes y las conductas que la persona realiza y que se
+        traducen en un grado de dominio de las cuatro principales habilidades relacionadas con el
+        concepto de integridad.
+        Es importante mencionar que el diagnóstico generado se desprende del cuestionario
+        que la misma persona contesta, es por tanto, una autoevaluación.';
+
+    $lang['ppc_text13']     = '
+        Es una herramienta que ha sido diseñada para que, por medio de un cuestionario que contiene
+        160 afirmaciones, puedan ser identificados tres diferentes conjuntos de habilidades que son
+        clave para detectar las actitudes y las conductas que tienen instaladas una persona y que
+        pueden encaminarla a lograr plenitud y prosperidad en su vida:';
+
+    $lang['ppc_text14']     = '
+        <ol>
+            <li><b> Bienestar afectivo </b></li>
+            <li><b> Bienestar social </b></li>
+            <li><b> Bienestar social y afectivo </b></li>
+        </ol>';
+
+    $lang['ppc_text15']     = '
+        Algunas habilidades: autoimagen positiva, auto direccionamiento, manejo de emociones,
+        patrones activos de amistad, apego a iguales, conducta pro social, ajuste con el ambiente, etc.';
+
+    $lang['ppc_text16']     = '
+        La evaluación de Habilidades Intelectuales es una prueba psicométrica de nueva generación,
+        normalizada y estandarizada que permite medir 15 habilidades intelectuales de acuerdo con
+        la teoría de la Estructura del Intelecto originalmente realizada por J. P. Guilford.';
+
+    $lang['ppc_text17']     = '
+        Ha sido diseñada para realizar una evaluación objetiva de las habilidades del individuo
+        que permitirán visualizar su nivel de desarrollo cognitivo en cuatro áreas diferentes.';
+
+    $lang['ppc_text18']     = '
+        <ol>
+            <li><b>Habilidades verbales:</b>
+                Vocabulario, vocabulario de matemáticas, analogías y seguimiento de instrucciones.</li>
+            <li><b>Habilidades de planeación:</b>
+                Progresión numérica, orientación y planeación.</li>
+            <li><b>Habilidades de análisis:</b>
+                Clasificación, analogías simbólicas, análisis de hechos y razonamiento lógico</li>
+            <li><b>Habilidades de toma de decisión:</b>
+                Discriminación, juicio de conceptos, conceptualización de hechos y aplicación de hechos.</li>
+        </ol>';
+
+    $lang['ppc_text19']     = '
+        La autoevaluación de Habilidades Emocionales es una prueba psicométrica de nueva generación,
+        normalizada y estandarizada que permite medir 12 habilidades emocionales,
+        así como 2 áreas relacionadas con el estilo de comunicación interpersonal.';
+
+    $lang['ppc_text20']     = '
+        Ha sido diseñada para que, por medio de un cuestionario que contiene 244 preguntas,
+        puedan ser identificados 3 diferentes conjuntos de habilidades emocionales.
+        Es importante destacar que el diagnóstico que aquí se presenta se desprende del cuestionario
+        que la misma persona se aplica y contesta; es, por tanto, una autoevaluación en donde se invita
+        al evaluado a realizar un análisis detallado sobre su manera de sentir y/o comportarse frente a
+        diferentes situaciones que han sido identificadas como pertinentes para evaluar las
+        12 habilidades emocionales y los 2 estilos de comunicación interpersonal.';
+
+    $lang['ppc_text21']     = '
+        <ol>
+            <li><b>Habilidades intrapersonales:</b>
+                Autoestima, manejo de la tensión, bienestar físico y propensión al cambio.</li>
+            <li><b>Habilidades interpersonales:</b>
+                Asertividad, conciencia de los demás y empatía.</li>
+            <li><b>Habilidades para la vida:</b>
+                Motivación, compromiso, administración del tiempo, toma de decisiones, liderazgo.</li>
+            <li><b>Estilo de comunicación interpersonal:</b>
+                Agresión y timidez.</li>
+        </ol>
+';
+
+    $lang['ppc_text22']     = '
+        La evaluación de Pensamiento Crítico y Analítico es una prueba psicométrica de nueva generación,
+        normalizada y estandarizada que permite medir 10 habilidades intelectuales, de acuerdo con
+        la teoría de la Estructura del Intelecto, originalmente propuesta por J. P. Guilford.';
+
+    $lang['ppc_text23']     = '
+        Ha sido diseñada para realizar una evaluación objetiva de las habilidades del individuo relacionadas
+        con el pensamiento crítico y analítico.';
+
+    $lang['ppc_text24']     = '
+        Los resultados están clasificados en 4 áreas diferentes, de acuerdo con las diversas maneras
+        en las que la persona puede relacionarse con la información.';
+
+    $lang['ppc_text25']     = '
+        <ol>
+            <li><b>Habilidad para identificar la información útil:</b>
+                Discriminación gráfica, discriminación conceptual y discriminación verbal.</li>
+            <li><b>Habilidad para evaluar la pertinencia de la información que se presenta:</b>
+                Juicio de conceptos gráficos, juicio de conceptos y juicio de conceptos verbales.</li>
+            <li><b>Habilidad para presentar la información como modelo o sistema:</b>
+                Aplicación de hechos.</li>
+            <li><b>Habilidad para evaluar posibles soluciones como consecuencia de las decisiones:</b>
+                Implicaciones gráficas, implicaciones conceptuales e implicaciones verbales.</li>
+        </ol>';
+
+    $lang['ppc_text26']     = '
+        La autoevaluación FL (Factores de Liderazgo) es una prueba psicométrica de nueva generación,
+        normalizada y estandarizada que permite medir 12 factores clave de liderazgo,
+        presentados en 4 diferentes conjuntos: Interpersonal, Dominio de la situación, Rendimiento y Juicio.';
+
+    $lang['ppc_text27']     = '
+        Ha sido diseñada en formato de cuestionario, el cual contiene 132 preguntas.
+        Es importante destacar que el diagnóstico que se presenta se desprende del cuestionario
+        que la persona se auto aplica y contesta; es, por tanto, una autoevaluación donde se le invita
+        al evaluado a realizar un análisis detallado sobre su manera de sentir y/o comportarse frente
+        a diferentes situaciones, que han sido identificadas como pertinentes, para evaluar los 12 factores.';
+
+    $lang['ppc_text28']     = '
+        <ol>
+            <li><b>Interpersonal:</b>
+                Contacto personal, pertenencia y asertividad</li>
+            <li><b>Dominio de la situación:</b>
+                Atención, control e influencia.</li>
+            <li><b>Rendimiento:</b>
+                Apertura, ritmo de trabajo y desempeño</li>
+            <li><b>Juicio:</b>
+                Evaluación, visión y enfoque estratégico</li>
+        </ol>';
+
+    // Página Psicometría Mapeo de talento
+    $lang['pmt_text01']     = 'Mapeo de talento';
+    $lang['pmt_text02']     = 'Lidera la detección, crecimiento y retención de talento.';
+    $lang['pmt_text03']     =  $lang['Funcionalidades'];
+    $lang['pmt_text04']     = '
+        <ul>
+            <li>Psicometría por competencias</li>
+            <li>Diseño de perﬁles de puesto</li>
+            <li>Nivel de cumplimiento vs. perﬁl (Compatibilidad)</li>
+            <li>Nivel de apego al puesto (APP)</li>
+            <li>Simulador de talento</li>
+        </ul>';
+
+    // Página Reclutamiento y permanencia
+    $lang['prp_text01']     = 'Reclutamiento y permanencia';
+    $lang['prp_text02']     = 'Identifica y contrata a los mejores rápidamente.';
+    $lang['prp_text03']     =  $lang['Funcionalidades'];
+    $lang['prp_text04']     = '
+        <ul>
+            <li>Evalúa a tus candidatos en tan solo 20 minutos</li>
+            <li>Pronostica la probabilidad de éxito de tus postulantes</li>
+            <li>Tracking de reclutamiento</li>
+        </ul>';
+
+    // Clientes
+    $lang['ctes_text01']     = 'Descubre por que empresas grandes y medianas eligen <span>Potentor</span>.';
+    $lang['ctes_text02']     = 'Testimonios';
+    $lang['ctes_text03']     = 'Salvador Luna - <span>Human Resources VP Mexico</span>';
+    $lang['ctes_text04']     = 'cliente de Potentor';
+    $lang['ctes_text05']     = 'Carlos Alberto Herrera - <span>Director de Capital Humano</span>';
+    $lang['ctes_text06']     = 'Mariana Morales - <span>Desarrollo Humano</span>';
+    $lang['ctes_text07']     = 'Ilse Lobo - <span>Talent Planning And Development Manager</span>';
+
+
+    // Desarrollo Organizacional
+    $lang['deso_text01']     = $lang['ini_text12'];
+    $lang['deso_text02']     = 'Evalúa competencias y comportamientos para conocer la perspectiva de superiores, pares, subordinados y clientes.';
+    $lang['deso_text03']     = $lang['GEN_FOO_TEXT_11'];
+
+    // Desarrollo Organizacional / Evaluación 360
+    $lang['360_text01']     =  $lang['Funcionalidades'];
+    $lang['360_text02']     = '
+        <li>Aplicación por nivel de dominio y/o comportamiento</li>
+        <li>Herramienta 100% conﬁgurable</li>
+        <li>Aplicación grupal</li>';
+
+    // Desarrollo Organizacional / Evaluación de Desempeño
+    $lang['evdes_text01']     = $lang['GEN_FOO_TEXT_10'];
+    $lang['evdes_text02']     = $lang['GEN_FOO_TEXT_11'];
+    $lang['evdes_text03']     =  $lang['Funcionalidades'];
+    $lang['evdes_text04']     = '
+        <li>Cascadeo, calibración y documentación de objetivos</li>
+        <li>Vinculación con competencias, potencial y 9box</li>
+        <li>Flujo de autorización automatizado y revisiones ilimitadas</li>
+        <li>Auto programación de notiﬁcaciones y recordatorios masivos</li>';
+
+
+    // Desarrollo Organizacional / Evaluación de Desempeño
+    $lang['pyr_text01']     = $lang['ini_text14'];
+    $lang['pyr_text02']     = 'Dale la bienvenida a la estrategia de RH con las mejores herramientas para la toma de decisiones.';
+    $lang['pyr_text03']     = $lang['GEN_FOO_TEXT_15'];
+    $lang['pyr_text04']     = $lang['GEN_FOO_TEXT_17'];
+    $lang['pyr_text05']     = $lang['GEN_FOO_TEXT_19'];
+
+    // Desarrollo Organizacional / Adecuación puesto persona
+    $lang['app_text01']     = 'Planeación y retención';
+    $lang['app_text02']     = $lang['GEN_FOO_TEXT_15'];
+    $lang['app_text03']     =  $lang['Funcionalidades'];
+    $lang['app_text04']     = '
+        <li>Integración de cualquier dato duro (ej. Experiencia, inglés, desempeño, etc.)</li>
+        <li>Ponderación y calibración de datos y métricas del puesto</li>';
+
+    // Desarrollo Organizacional / 9box
+    $lang['9box_text01']     = $lang['app_text01'];
+    $lang['9box_text02']     = $lang['GEN_FOO_TEXT_17'];
+    $lang['9box_text03']     =  $lang['Funcionalidades'];
+    $lang['9box_text04']     = '
+        <li>Herramienta 100% conﬁgurable</li>
+        <li>Funcionalidad de drag & drop</li>
+        <li>Calibración de ejes (potencial y desempeño)</li>
+        <li>Vinculación con ﬁcha de talento</li>';
+
+    // Desarrollo Organizacional / Planes de Carrera
+    $lang['dopc_text01']     = $lang['app_text01'];
+    $lang['dopc_text02']     = $lang['GEN_FOO_TEXT_18'];
+    $lang['dopc_text03']     = $lang['GEN_FOO_TEXT_19'];
+    $lang['dopc_text04']     = $lang['Funcionalidades'];
+    $lang['dopc_text05']     = '
+        <li>Recomendaciones de posiciones que el colaborador pudiera reemplazar</li>
+        <li>Recomendación de colaboradores que pudieran reemplazar la posición</li>
+        <li>Generación de plan de carrera</li>
+        <li>Plan de acción y seguimiento</li>';
+
+    // Partners
+    $lang['part_text01']     = 'Únete a la familia Potentor';
+    $lang['part_text02']     = 'Potentor México';
+    $lang['part_text03']     = 'Teléfono: +52 1 8625-4967';
+    $lang['part_text04']     = 'Representante Potentor Guatemala';
+    $lang['part_text05']     = 'Teléfono: +502 2295-5600';
+    $lang['part_text06']     = 'Representante Potentor Panamá';
+    $lang['part_text07']     = 'Teléfono: +507 208-6808';
+    $lang['part_text08']     = 'Nuestros Partners';
+    $lang['part_text09']     = 'Quiero ser distribuidor';
+    $lang['part_text10']     = 'Quiero ser consultor Potentor';
+    $lang['part_text11']     = 'Nombre';
+    $lang['part_text12']     = 'País';
+    $lang['part_text13']     = 'Empresa';
+    $lang['part_text14']     = 'Correo de la empresa';
+    $lang['part_text15']     = 'Teléfono';
+    $lang['part_text16']     = 'Mensaje';
+    $lang['part_text17']     = 'Pronto estaremos en contacto contigo!';
+    $lang['part_text18']     = 'Hemos recibido tu mensaje';
+    $lang['part_text19']     = 'Ocurrió un error.';
+    $lang['part_text20']     = 'Tu mensaje no pudo ser enviado';
+
+    // Envío de mensaje
+    $lang['msg_text01']     = 'Nombre es requerido';
+    $lang['msg_text02']     = 'Teléfono es requerido';
+    $lang['msg_text03']     = 'El país es requerido';
+    $lang['msg_text04']     = 'Email empresarial es requerido';
+    $lang['msg_text05']     = 'Empresa es requerida';
+    $lang['msg_text06']     = 'Mensaje es requerido';
+    $lang['msg_text07']     = 'Por favor, confirma que no eres un robot';
+
+
+    //Página de gracias
+    $lang['tks_text01']     = '¡Gracias por solicitar información de Potentor!';
+    $lang['tks_text02']     = 'En breve uno de nuestros especialistas se pondrá en contacto contigo.';
+
+
+    //Página de contacto
+    $lang['cont_text01']    = '¡Ponte en contacto con nosotros!';
+    $lang['cont_text02']    = 'Dirección';
+    $lang['cont_text03']    = 'Teléfono';
+
+
+    //Solicita Demo
+    $lang['sold_text01']    = '¡Solicita tu Demo ahora!';
+    $lang['sold_text02']    = $lang['cont_text02'];
+    $lang['sold_text03']    = $lang['cont_text03'];
+
+
+    //FAQ
+    $lang['faq_text01']    = 'Preguntas frecuentes';
+    $lang['faq_text02']    = '1. ¿Cuánto cuesta la implementación?';
+    $lang['faq_text03']    = 'La implementación es gratis con la contratación de la plataforma.';
+    $lang['faq_text04']    = '2. ¿Tengo soporte?';
+    $lang['faq_text05']    = 'El servicio incluye un ejecutivo de cuenta para la implementación y seguimiento. Adicionalmente contamos con soporte técnico 24/7.';
+    $lang['faq_text06']    = '3. ¿Dónde está instalada la plataforma?';
+    $lang['faq_text07']    = 'La plataforma de POTENTOR está alojada en la nube en un data center en San Francisco.';
+    $lang['faq_text08']    = 'La nube tiene como beneficio:';
+    $lang['faq_text09']    = '
+    <li>
+        Escalabilidad:
+        Aumento de recursos de SW/HW (Procesador, Almacenamiento, Memoria RAM) sobre la demanda de uso.
+        Sólo toma minutos en aplicar los ajustes.
+    </li>
+    <li>
+        Disponibilidad: 24/7
+    </li>
+    <li>
+        Seguridad: Protegida por capas de seguridad contra ataques y robo de datos.
+    </li>';
+    $lang['faq_text10']    = '4. ¿Cuáles navegadores son compatibles?';
+    $lang['faq_text11']    = 'POTENTOR es compatible con Google Chrome (Recomendado), Mozilla Firefox, Apple Safari, Opera e Internet Explorer 11+';
+    $lang['faq_text12']    = '5. ¿Seguridad que provee?';
+    $lang['faq_text13']    = '
+        <li>Protección contra ataques DDoS</li>
+        <li>Protección contra robo de datos</li>
+        <li>Protección adicional que brinda el proveedor de la nube.</li>
+        <li>Respaldo de la información.</li>';
+    $lang['faq_text14']    = '6. ¿Puede conectarse otro SW con POTENTOR?';
+    $lang['faq_text15']    = 'POTENTOR cuenta con un API. Se trata de una interfaz de funciones manejadas por un programador que, a su vez, es el encargado de conectar ambos sistemas para el intercambio de información.';
+    $lang['faq_text16']    = '7. ¿La información de la empresa está segura?';
+    $lang['faq_text17']    = '
+        Para acceder a la plataforma hace falta un usuario y contraseña.
+        Además de eso POTENTOR cuenta con políticas de aviso de privacidad y seguridad de datos.
+        Nadie, a excepción del personal cualificado de POTENTOR, tiene acceso a la información de los clientes con el único fin de brindar soluciones a posibles, mas no probables, situaciones inesperadas.';
+    $lang['faq_text18']    = '8. ¿Compatibilidad con dispositivos?';
+    $lang['faq_text19']    = 'POTENTOR está diseñado para trabajar en PC, MAC, Laptop, Tablet e Ipad.';
+
+
+    //Políticas de Privacidad
+    $lang['priv_text01']    = 'Política de privacidad de la información';
+    $lang['priv_text02']    = '
+        <p>
+            La Política de Privacidad de la Información (la “Política”) detalla el tipo de
+            información empresarial y/o Personal que  Sistemas Educativos Empresariales
+            (en lo sucesivo “Potentor”) recaba de sus usuarios y cómo es que esa información
+            se utiliza, protege y elimina.
+        </p>
+        <p>
+            Asimismo, esta Política también explica qué debe hacer en caso de que no quiera
+            que su información empresarial y/o personal sea utilizada para fines de estadística,
+            y cómo puede reemplazar información que ha sido enviada a nosotros.
+        </p>
+        <p>
+            Esta Política aplica a sitios de Internet de Potentor dirigidos a consumidores que
+            se vinculen con la Política, incluidos los mencionados en este documento y, en general,
+            a la recolección de información Empresarial y/o Personal realizada directamente por
+            Potentor a través de material impreso, vía electrónica, vía telefónica y
+            consulta telefónica a la Unidad de información y Atención al usuario de Potentor.
+        </p>
+
+        <h5>1. Su aceptación a esta política de privacidad</h5>
+        <p>
+            Al proporcionar Información Empresarial y/o Personal a Potentor, usted confirma
+            que está de acuerdo con los términos de nuestra Política actual tal y como se
+            presenta en este documento. Si no está de acuerdo con cualquier término de esta Política,
+            por favor no proporcione ningún tipo de Información Empresarial y/o Personal.
+            Si opta por no proporcionar información Empresarial y/o Personal, es posible que no
+            pueda llevar a cabo ciertas actividades como acceso a diversas áreas de nuestras páginas
+            de Internet.
+        </p>
+        <h5>2. Recolección de Información Empresarial y/o Personal</h5>
+        <p>
+            “Información Empresarial y/o Personal” significa toda información identificable
+            de manera personal que le sea solicitada por Potentor, de manera enunciativa y
+            no limitativa la siguiente: su nombre, puesto y correo electrónico.
+            El hecho de que usted nos proporcione Información Empresarial y/o Personal significa
+            que nos está autorizando para usar dicha información de acuerdo con los términos
+            de esta Política, la cual incluye su derecho a limitarnos el uso de esta información.
+        </p>
+        <h5>3. Cómo Usamos su Información</h5>
+        <p>
+            Cuando nos proporcione su Información Institucional y/o Personal, nosotros solamente
+            la utilizaremos para el propósito específico para el que fue recabada (por ejemplo,
+            para fines estadísticos). También podremos utilizar su Información Empresarial y/o
+            Personal para contactarlo respecto de otros productos y servicios que podrían ser
+            de interés para usted. Sin embargo, en cualquier momento usted podrá optar por
+            dejar de proporcionar esta información.
+            Por política, Potentor no vende información Empresarial y/o Personal.
+        </p>
+        <h5>4. Seguridad de la Información</h5>
+        <p>
+            Tomamos las precauciones necesarias para mantener su información Institucional y/o
+            Personal segura. Toda aquella información Empresarial y/o Personalizada identificable,
+            está sujeta a acceso restringido con la finalidad acceso no autorizado a la misma,
+            modificaciones o mal uso.
+        </p>
+
+        <h5>5. Cambios en Nuestra Política</h5>
+        <p>
+            Potentor se reserva el derecho de modificar o remover esta Política a nuestra sola discreción.
+            Cualquier nueva política será desplegada en esta misma forma y los exhortamos a que
+            visiten esta área con la finalidad de que se encuentren y permanezcan informados.
+        </p>
+        <h5>6. A Quién Contactar</h5>
+        <p>
+            Por favor escríbanos a  info@potentor.com.mx  o llame al
+            tel. 01 (81) 86 25 49 67 en caso de que tenga preguntas o dudas sobre esta
+            Política o para reportar cualquier violación a la misma.
+        </p>';
+
+
+	if(isset($lang[$variable]))
+	{
+		echo $lang[$variable];
+	}
+	else
+	{
+		echo $variable . ' no está definido';
+	}
+}
+
+
+
+?>
